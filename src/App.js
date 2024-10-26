@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Shop from './components/Shop/Shop';
+import {Button} from 'react-bootstrap';
+import News from './components/News/News';
+
 function App() {
   return (
     <div>
-      <Header></Header>
-      <Shop></Shop>
-    </div>
+      <h2>React Bootstrap</h2>
+      <Button variant='danger'>Primary</Button>
+      <News></News>
+    </div> 
   );
 }
 

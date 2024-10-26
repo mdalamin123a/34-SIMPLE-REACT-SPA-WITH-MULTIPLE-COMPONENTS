@@ -1,16 +1,8 @@
-1. use bootstrap by installing bootstrap and importing bootstrap
-  ==> npm install bootstrap
-  ==> import 'bootstrap/dist/css/bootstrap.min.css';
-
-2. use bootstrap by adding cdn in index.html file on public folder
-
-3. use bootstrap component by installing react-bootstrap and importing Component form react-bootstrap
-  ==> npm install react-bootstrap
-  ===> import {Button} from 'react-bootstrap';
-       function App(){
-        return(
-            <div>
-            <Button>click Me</Button>
-            </div>
-        );
-       }
+1. Installing react-bootstrap and use react-bootstrap component
+  ==> npm install --save react-bootstrap
+  ==> import {Button} from 'react-bootstrap';
+  ==> function App() {
+    return (
+      <Button>Button</Button>
+    );
+  }
