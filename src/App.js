@@ -4,6 +4,7 @@ import {Button} from 'react-bootstrap';
 import News from './components/News/News';
 import Header from './components/Header/Header';
 import TopHeadline from './components/TopHeadline/TopHeadline';
+import Fragment from './components/Fragment/Fragment';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h2>React Bootstrap</h2>
       <Button variant='danger'>Primary</Button>
       <Header></Header>
+      <Fragment></Fragment>
       <TopHeadline></TopHeadline>
     </div> 
   );

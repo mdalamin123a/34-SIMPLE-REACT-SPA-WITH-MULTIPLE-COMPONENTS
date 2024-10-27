@@ -1,1 +1,23 @@
-1. use multiple react bootstrap components
+1. use (<></>) empty fragment for return multiple element from a component. it work like div tag but dont create a div tag on webpage or dom
+   return (
+    <>
+     <h1></h1>
+     <p></p>
+    </>
+   );
+
+2. use (<React.Fragment></React.Fragment>) Component is also work same to empty fragment for return multiple element from a component. must need to import React on this component
+    return (
+        <React.Fragment>
+        <h1></h1>
+        <p></p>
+        </React.Fragment>
+   );
+
+   3. use (<Fragment></Fragment>) Component is also work same to empty fragment for return multiple element from a component. For using this must import {Fragment } component form react
+   return (
+    <Fragment>
+    <h1></h1>
+    <p></p>
+    </Fragment>
+);
